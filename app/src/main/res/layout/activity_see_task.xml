@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/headColor"
+        android:layout_height="56dp">
+        <TextView
+            android:id="@+id/titlepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tunniplan"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textColor="@color/headTitleColor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bgitemdoes"
+        android:layout_margin="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@id/titledoes"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textColor="@color/mainTextColor"
+            android:text="Does Name" />
+
+        <TextView
+            android:id="@+id/descdoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:justificationMode="inter_word"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took "
+            android:textColor="@color/mainTextColor"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/bgbtnedit"
+                android:scaleType="fitStart"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/bgbtncancel"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textColor="#593F62"
+                android:textSize="32dp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

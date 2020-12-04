@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgitemdoes"
+    android:orientation="horizontal"
+    android:layout_height="53dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/doesBG"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/titledoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="9dp"
+            android:text="+"
+            android:textColor="@color/mainTextColor"
+            android:textSize="24dp" />
+
+
+        <ImageView
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="11dp"
+            android:id="@+id/confirmdoesMarker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bgclear"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unconfrim"
+            android:text="+"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
